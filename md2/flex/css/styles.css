@@ -1,0 +1,169 @@
+body{
+	background-color:rgb(244, 244, 246);
+}
+
+.palidz {
+	font-size: 20px;
+	text-align: center;
+}
+
+.flex{ 
+    display: flex;
+}
+
+.introgif {
+    width: 100%;
+}
+
+.box7 {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+	height: auto;
+    }
+
+.flex1{
+	flex:1;
+	max-width: 50%;
+}
+
+.box22,
+.box31,
+.box42,
+.box51,
+.box62,
+.box91{
+	background-color:rgb(244, 244, 246);
+	max-width: 50%;
+	
+}
+
+.box22 p,
+.box31 p,
+.box42 p,
+.box51 p,
+.box62 p
+{
+	padding: 20%;
+	font-size: 30px;
+
+}
+
+.box922 p,
+.box82 p {
+	font-size: 27px;
+	padding: 5%;
+}
+
+.box91 p {
+	padding: 10%;
+	font-size: 27px;
+	
+}
+
+.box81 {
+	padding: 5%;
+}
+
+button{
+    width: 400px;
+    text-align: left;
+    margin: 0.3em;
+}
+
+.myButton {
+display:inline-block;
+padding:0.5em 3em;
+border:0.16em solid #5c5b5b;
+margin:0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#5c5b5b;
+text-align:center;
+transition: all 0.15s;
+}
+.myButton:hover {
+	color:#030303;
+ border-color:#DDDDDD;
+}
+.myButton:active {
+	color:#BBBBBB;
+ border-color:#BBBBBB;
+}
+
+@media only screen and (max-width: 900px){
+	.flex{
+		flex-direction: column;
+		}
+		.flex1{
+			flex:1;
+			max-width: 100%;
+		}
+		
+		.box22,
+		.box31,
+		.box42,
+		.box51,
+		.box62,
+		.box91{
+			background-color:rgb(244, 244, 246);
+			max-width: 100%;
+
+}
+.flexReverse {
+	flex-direction:column-reverse;
+}
+
+}
+
+
+/* Reset CSS MeyerWeb.com */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
